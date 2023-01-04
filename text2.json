@@ -1,0 +1,4343 @@
+{
+    "entityMentions": [
+        {
+            "mentionId": "1",
+            "type": "SEVERITY",
+            "text": {
+                "content": "Chronic",
+                "beginOffset": 22
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0518656"
+                },
+                {
+                    "entityId": "UMLS/C0745188"
+                },
+                {
+                    "entityId": "UMLS/C0746367"
+                },
+                {
+                    "entityId": "UMLS/C1997771"
+                },
+                {
+                    "entityId": "UMLS/C2673788"
+                }
+            ],
+            "confidence": 0.8515133857727051
+        },
+        {
+            "mentionId": "2",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "neck",
+                "beginOffset": 30
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0027530"
+                },
+                {
+                    "entityId": "UMLS/C3159206"
+                }
+            ],
+            "confidence": 0.8778027892112732
+        },
+        {
+            "mentionId": "3",
+            "type": "PROBLEM",
+            "text": {
+                "content": "pain",
+                "beginOffset": 35
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0030193"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.057481713593006134
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.995536744594574
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9993086457252502
+            },
+            "confidence": 0.9812461137771606
+        },
+        {
+            "mentionId": "4",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "Sagittal T1",
+                "beginOffset": 68
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0205129"
+                },
+                {
+                    "entityId": "UMLS/C0935598"
+                }
+            ],
+            "confidence": 0.5398381352424622
+        },
+        {
+            "mentionId": "5",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "T2",
+                "beginOffset": 81
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1179688"
+                }
+            ],
+            "confidence": 0.47986364364624023
+        },
+        {
+            "mentionId": "6",
+            "type": "PROCEDURE",
+            "text": {
+                "content": "echo",
+                "beginOffset": 93
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0009600"
+                },
+                {
+                    "entityId": "UMLS/C0013516"
+                },
+                {
+                    "entityId": "UMLS/C0058928"
+                },
+                {
+                    "entityId": "UMLS/C0376444"
+                },
+                {
+                    "entityId": "UMLS/C0920208"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9798564314842224
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9929646253585815
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.999570906162262
+            },
+            "confidence": 0.6677432656288147
+        },
+        {
+            "mentionId": "7",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "thecervical spine",
+                "beginOffset": 151
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0037949"
+                },
+                {
+                    "entityId": "UMLS/C2752558"
+                }
+            ],
+            "confidence": 0.7938905954360962
+        },
+        {
+            "mentionId": "8",
+            "type": "PROCEDURE",
+            "text": {
+                "content": "MR myelographic sequence",
+                "beginOffset": 181
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0026995"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.8408826589584351
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9994569420814514
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996985197067261
+            },
+            "confidence": 0.4456053376197815
+        },
+        {
+            "mentionId": "9",
+            "type": "PROCEDURE",
+            "text": {
+                "content": "films",
+                "beginOffset": 259
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0016103"
+                },
+                {
+                    "entityId": "UMLS/C0911799"
+                },
+                {
+                    "entityId": "UMLS/C1441758"
+                },
+                {
+                    "entityId": "UMLS/C1441759"
+                },
+                {
+                    "entityId": "UMLS/C2986595"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CLINICAL_HISTORY",
+                "confidence": 0.8199819922447205
+            },
+            "certaintyAssessment": {
+                "value": "UNLIKELY",
+                "confidence": 0.9626929759979248
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9989526867866516
+            },
+            "confidence": 0.3906228542327881
+        },
+        {
+            "mentionId": "10",
+            "type": "PROBLEM",
+            "text": {
+                "content": "loss of cervical lordosis",
+                "beginOffset": 329
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0024003"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9948940873146057
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.8851245641708374
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.8284013867378235
+        },
+        {
+            "mentionId": "11",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "Posterior spinous processes",
+                "beginOffset": 370
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C3897005"
+                }
+            ],
+            "confidence": 0.7593206763267517
+        },
+        {
+            "mentionId": "12",
+            "type": "PROBLEM",
+            "text": {
+                "content": "loss of disc space height",
+                "beginOffset": 418
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0424641"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9983009696006775
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9987080693244934
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.7153396010398865
+        },
+        {
+            "mentionId": "13",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "C5-6",
+                "beginOffset": 447
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0446415"
+                },
+                {
+                    "entityId": "UMLS/C1305859"
+                }
+            ],
+            "confidence": 0.9555779099464417
+        },
+        {
+            "mentionId": "14",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "C6-7",
+                "beginOffset": 456
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0446416"
+                },
+                {
+                    "entityId": "UMLS/C1305860"
+                }
+            ],
+            "confidence": 0.9574788212776184
+        },
+        {
+            "mentionId": "15",
+            "type": "PROBLEM",
+            "text": {
+                "content": "osteophyte",
+                "beginOffset": 466
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1956089"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9932918548583984
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9944352507591248
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.9778404235839844
+        },
+        {
+            "mentionId": "16",
+            "type": "MEDICINE",
+            "text": {
+                "content": "syrinx",
+                "beginOffset": 502
+            },
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.8905362486839294
+            },
+            "certaintyAssessment": {
+                "value": "UNLIKELY",
+                "confidence": 0.7793437838554382
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9658258557319641
+            },
+            "confidence": 0.7624418139457703
+        },
+        {
+            "mentionId": "17",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "cord.",
+                "beginOffset": 529
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1550235"
+                }
+            ],
+            "confidence": 0.9484886527061462
+        },
+        {
+            "mentionId": "18",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "ring of C1",
+                "beginOffset": 538
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1305856"
+                }
+            ],
+            "confidence": 0.7749549746513367
+        },
+        {
+            "mentionId": "19",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "Atlantoaxial joint",
+                "beginOffset": 560
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0004168"
+                }
+            ],
+            "confidence": 0.9560704827308655
+        },
+        {
+            "mentionId": "20",
+            "type": "PROBLEM",
+            "text": {
+                "content": "hypertrophic changes",
+                "beginOffset": 583
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0020564"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9996469616889954
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9992727041244507
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.8652136921882629
+        },
+        {
+            "mentionId": "21",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "Cervical ligaments",
+                "beginOffset": 605
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0230316"
+                }
+            ],
+            "confidence": 0.9864306449890137
+        },
+        {
+            "mentionId": "22",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "skull",
+                "beginOffset": 642
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0037303"
+                },
+                {
+                    "entityId": "UMLS/C2951888"
+                },
+                {
+                    "entityId": "UMLS/C4299122"
+                }
+            ],
+            "confidence": 0.8087286353111267
+        },
+        {
+            "mentionId": "23",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "thoracic spine",
+                "beginOffset": 675
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0581269"
+                }
+            ],
+            "confidence": 0.9537994861602783
+        },
+        {
+            "mentionId": "24",
+            "type": "PROBLEM",
+            "text": {
+                "content": "canal stenosis",
+                "beginOffset": 703
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C4539156"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9838795065879822
+            },
+            "certaintyAssessment": {
+                "value": "UNLIKELY",
+                "confidence": 0.9679460525512695
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9987198114395142
+            },
+            "confidence": 0.7284701466560364
+        },
+        {
+            "mentionId": "25",
+            "type": "PROCEDURE",
+            "text": {
+                "content": "STIR sequences",
+                "beginOffset": 729
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1294197"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9588918685913086
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.992908239364624
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9814717769622803
+            },
+            "confidence": 0.38177651166915894
+        },
+        {
+            "mentionId": "26",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "bone marrow",
+                "beginOffset": 771
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0005953"
+                }
+            ],
+            "confidence": 0.8762361407279968
+        },
+        {
+            "mentionId": "27",
+            "type": "PROBLEM",
+            "text": {
+                "content": "edema.",
+                "beginOffset": 783
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0013604"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9896293878555298
+            },
+            "certaintyAssessment": {
+                "value": "UNLIKELY",
+                "confidence": 0.9090508818626404
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9982549548149109
+            },
+            "confidence": 0.9794875979423523
+        },
+        {
+            "mentionId": "28",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "facets",
+                "beginOffset": 793
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0223633"
+                },
+                {
+                    "entityId": "UMLS/C0224521"
+                }
+            ],
+            "confidence": 0.9392502903938293
+        },
+        {
+            "mentionId": "29",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "Alar ligaments",
+                "beginOffset": 821
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0225002"
+                }
+            ],
+            "confidence": 0.9856497049331665
+        },
+        {
+            "mentionId": "30",
+            "type": "PROBLEM",
+            "text": {
+                "content": "hyperintense signal.At",
+                "beginOffset": 851
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C2938912"
+                },
+                {
+                    "entityId": "UMLS/C3149362"
+                },
+                {
+                    "entityId": "UMLS/C4314149"
+                },
+                {
+                    "entityId": "UMLS/C4531279"
+                },
+                {
+                    "entityId": "UMLS/C5233075"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9986521601676941
+            },
+            "certaintyAssessment": {
+                "value": "UNLIKELY",
+                "confidence": 0.7984343767166138
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.532265841960907
+        },
+        {
+            "mentionId": "31",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "C2-3",
+                "beginOffset": 874
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1305857"
+                }
+            ],
+            "confidence": 0.9629612565040588
+        },
+        {
+            "mentionId": "32",
+            "type": "PROBLEM",
+            "text": {
+                "content": "disc bulge",
+                "beginOffset": 889
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0015300"
+                },
+                {
+                    "entityId": "UMLS/C0022578"
+                },
+                {
+                    "entityId": "UMLS/C0235014"
+                },
+                {
+                    "entityId": "UMLS/C1833329"
+                },
+                {
+                    "entityId": "UMLS/C1867446"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.8814635872840881
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.8426824808120728
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.991401195526123
+            },
+            "confidence": 0.6509117484092712
+        },
+        {
+            "mentionId": "33",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "facet",
+                "beginOffset": 914
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0223633"
+                },
+                {
+                    "entityId": "UMLS/C0224521"
+                }
+            ],
+            "confidence": 0.4062758982181549
+        },
+        {
+            "mentionId": "34",
+            "type": "PROBLEM",
+            "text": {
+                "content": "hypertrophy",
+                "beginOffset": 920
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0020564"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9964134097099304
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9991462230682373
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.9642402529716492
+        },
+        {
+            "mentionId": "35",
+            "type": "PROBLEM",
+            "text": {
+                "content": "foraminal narrowing",
+                "beginOffset": 983
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0014866"
+                },
+                {
+                    "entityId": "UMLS/C0040583"
+                },
+                {
+                    "entityId": "UMLS/C0041974"
+                },
+                {
+                    "entityId": "UMLS/C0267466"
+                },
+                {
+                    "entityId": "UMLS/C1832598"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9930601716041565
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.987849771976471
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996200203895569
+            },
+            "confidence": 0.8065266609191895
+        },
+        {
+            "mentionId": "36",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "C3-4",
+                "beginOffset": 1017
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0446413"
+                },
+                {
+                    "entityId": "UMLS/C1305853"
+                }
+            ],
+            "confidence": 0.960426926612854
+        },
+        {
+            "mentionId": "37",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "disc",
+                "beginOffset": 1038
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1556138"
+                },
+                {
+                    "entityId": "UMLS/C1621443"
+                },
+                {
+                    "entityId": "UMLS/C2348299"
+                }
+            ],
+            "confidence": 0.49141785502433777
+        },
+        {
+            "mentionId": "38",
+            "type": "PROBLEM",
+            "text": {
+                "content": "herniation protrusion",
+                "beginOffset": 1043
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0240538"
+                },
+                {
+                    "entityId": "UMLS/C0241442"
+                },
+                {
+                    "entityId": "UMLS/C1846433"
+                },
+                {
+                    "entityId": "UMLS/C1850856"
+                },
+                {
+                    "entityId": "UMLS/C3278411"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9988933205604553
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9984053373336792
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.8388079404830933
+        },
+        {
+            "mentionId": "39",
+            "type": "SEVERITY",
+            "text": {
+                "content": "mild",
+                "beginOffset": 1086
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0239574"
+                },
+                {
+                    "entityId": "UMLS/C0278138"
+                },
+                {
+                    "entityId": "UMLS/C1837545"
+                },
+                {
+                    "entityId": "UMLS/C1839253"
+                },
+                {
+                    "entityId": "UMLS/C1840417"
+                }
+            ],
+            "confidence": 0.9566128849983215
+        },
+        {
+            "mentionId": "40",
+            "type": "PROBLEM",
+            "text": {
+                "content": "canal stenosis",
+                "beginOffset": 1091
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C4539156"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9458609819412231
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.8565918803215027
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9986433386802673
+            },
+            "confidence": 0.7158859372138977
+        },
+        {
+            "mentionId": "41",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "neuralforamina",
+                "beginOffset": 1111
+            },
+            "confidence": 0.9767664074897766
+        },
+        {
+            "mentionId": "42",
+            "type": "PROBLEM",
+            "text": {
+                "content": "narrowing",
+                "beginOffset": 1138
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0014866"
+                },
+                {
+                    "entityId": "UMLS/C0040583"
+                },
+                {
+                    "entityId": "UMLS/C0041974"
+                },
+                {
+                    "entityId": "UMLS/C0267466"
+                },
+                {
+                    "entityId": "UMLS/C1832598"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.991864800453186
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9914750456809998
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996751546859741
+            },
+            "confidence": 0.9685959815979004
+        },
+        {
+            "mentionId": "43",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "jointhypertrophy",
+                "beginOffset": 1216
+            },
+            "confidence": 0.5590065121650696
+        },
+        {
+            "mentionId": "44",
+            "type": "PROBLEM",
+            "text": {
+                "content": "facet arthropathy",
+                "beginOffset": 1237
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0022408"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9942807555198669
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9839984774589539
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996579885482788
+            },
+            "confidence": 0.683053731918335
+        },
+        {
+            "mentionId": "45",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "C4-5",
+                "beginOffset": 1269
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0446414"
+                },
+                {
+                    "entityId": "UMLS/C1305858"
+                }
+            ],
+            "confidence": 0.8987510800361633
+        },
+        {
+            "mentionId": "46",
+            "type": "PROBLEM",
+            "text": {
+                "content": "disc bulge",
+                "beginOffset": 1284
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0015300"
+                },
+                {
+                    "entityId": "UMLS/C0022578"
+                },
+                {
+                    "entityId": "UMLS/C0235014"
+                },
+                {
+                    "entityId": "UMLS/C1833329"
+                },
+                {
+                    "entityId": "UMLS/C1867446"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.6012158393859863
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.7292401194572449
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9927268028259277
+            },
+            "confidence": 0.7069058418273926
+        },
+        {
+            "mentionId": "47",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "disc",
+                "beginOffset": 1299
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1556138"
+                },
+                {
+                    "entityId": "UMLS/C1621443"
+                },
+                {
+                    "entityId": "UMLS/C2348299"
+                }
+            ],
+            "confidence": 0.4707532823085785
+        },
+        {
+            "mentionId": "48",
+            "type": "PROBLEM",
+            "text": {
+                "content": "herniation",
+                "beginOffset": 1304
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0270679"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9954211115837097
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.998310923576355
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.9784242510795593
+        },
+        {
+            "mentionId": "49",
+            "type": "SEVERITY",
+            "text": {
+                "content": "moderate",
+                "beginOffset": 1333
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C4085643"
+                },
+                {
+                    "entityId": "UMLS/C5201148"
+                }
+            ],
+            "confidence": 0.9202483296394348
+        },
+        {
+            "mentionId": "50",
+            "type": "PROBLEM",
+            "text": {
+                "content": "canal stenosis",
+                "beginOffset": 1342
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C4539156"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9711365699768066
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9913555979728699
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996579885482788
+            },
+            "confidence": 0.7620722055435181
+        },
+        {
+            "mentionId": "51",
+            "type": "PROBLEM",
+            "text": {
+                "content": "cordindentation",
+                "beginOffset": 1361
+            },
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9918982982635498
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9966555833816528
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9997064471244812
+            },
+            "confidence": 0.7537957429885864
+        },
+        {
+            "mentionId": "52",
+            "type": "PROBLEM",
+            "text": {
+                "content": "foraminal narrowing",
+                "beginOffset": 1382
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0014866"
+                },
+                {
+                    "entityId": "UMLS/C0040583"
+                },
+                {
+                    "entityId": "UMLS/C0041974"
+                },
+                {
+                    "entityId": "UMLS/C0267466"
+                },
+                {
+                    "entityId": "UMLS/C1832598"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9855139851570129
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9864965677261353
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9994188547134399
+            },
+            "confidence": 0.9474082589149475
+        },
+        {
+            "mentionId": "53",
+            "type": "SEVERITY",
+            "text": {
+                "content": "worse",
+                "beginOffset": 1426
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1457868"
+                }
+            ],
+            "confidence": 0.6533100605010986
+        },
+        {
+            "mentionId": "54",
+            "type": "PROBLEM",
+            "text": {
+                "content": "facet arthropathy",
+                "beginOffset": 1478
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0022408"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9981899261474609
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9976164698600769
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.7322563529014587
+        },
+        {
+            "mentionId": "55",
+            "type": "SEVERITY",
+            "text": {
+                "content": "worse",
+                "beginOffset": 1497
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1457868"
+                }
+            ],
+            "confidence": 0.7586802244186401
+        },
+        {
+            "mentionId": "56",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "C5-6",
+                "beginOffset": 1561
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0446415"
+                },
+                {
+                    "entityId": "UMLS/C1305859"
+                }
+            ],
+            "confidence": 0.9133180379867554
+        },
+        {
+            "mentionId": "57",
+            "type": "PROBLEM",
+            "text": {
+                "content": "disc bulge",
+                "beginOffset": 1576
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0015300"
+                },
+                {
+                    "entityId": "UMLS/C0022578"
+                },
+                {
+                    "entityId": "UMLS/C0235014"
+                },
+                {
+                    "entityId": "UMLS/C1833329"
+                },
+                {
+                    "entityId": "UMLS/C1867446"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.8737502694129944
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9860539436340332
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.998194694519043
+            },
+            "confidence": 0.6440753936767578
+        },
+        {
+            "mentionId": "58",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "disc",
+                "beginOffset": 1591
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1556138"
+                },
+                {
+                    "entityId": "UMLS/C1621443"
+                },
+                {
+                    "entityId": "UMLS/C2348299"
+                }
+            ],
+            "confidence": 0.5265781879425049
+        },
+        {
+            "mentionId": "59",
+            "type": "PROBLEM",
+            "text": {
+                "content": "herniation",
+                "beginOffset": 1596
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0270679"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9962060451507568
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9986205101013184
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.9764676094055176
+        },
+        {
+            "mentionId": "60",
+            "type": "SEVERITY",
+            "text": {
+                "content": "moderate to severe",
+                "beginOffset": 1623
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1851086"
+                },
+                {
+                    "entityId": "UMLS/C3550392"
+                },
+                {
+                    "entityId": "UMLS/C3805317"
+                },
+                {
+                    "entityId": "UMLS/C4229553"
+                }
+            ],
+            "confidence": 0.922868013381958
+        },
+        {
+            "mentionId": "61",
+            "type": "PROBLEM",
+            "text": {
+                "content": "canal stenosis",
+                "beginOffset": 1642
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C4539156"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9944886565208435
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9962308406829834
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.7330437302589417
+        },
+        {
+            "mentionId": "62",
+            "type": "PROBLEM",
+            "text": {
+                "content": "cordindentation",
+                "beginOffset": 1661
+            },
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9931619167327881
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9972115755081177
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996751546859741
+            },
+            "confidence": 0.7780728936195374
+        },
+        {
+            "mentionId": "63",
+            "type": "PROBLEM",
+            "text": {
+                "content": "foraminal narrowing",
+                "beginOffset": 1682
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0014866"
+                },
+                {
+                    "entityId": "UMLS/C0040583"
+                },
+                {
+                    "entityId": "UMLS/C0041974"
+                },
+                {
+                    "entityId": "UMLS/C0267466"
+                },
+                {
+                    "entityId": "UMLS/C1832598"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9933893084526062
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9886797070503235
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9993160963058472
+            },
+            "confidence": 0.9306920766830444
+        },
+        {
+            "mentionId": "64",
+            "type": "SEVERITY",
+            "text": {
+                "content": "worse",
+                "beginOffset": 1734
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1457868"
+                }
+            ],
+            "confidence": 0.7222536206245422
+        },
+        {
+            "mentionId": "65",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "C6-7",
+                "beginOffset": 1761
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0446416"
+                },
+                {
+                    "entityId": "UMLS/C1305860"
+                }
+            ],
+            "confidence": 0.9488073587417603
+        },
+        {
+            "mentionId": "66",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "disc",
+                "beginOffset": 1784
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1556138"
+                },
+                {
+                    "entityId": "UMLS/C1621443"
+                },
+                {
+                    "entityId": "UMLS/C2348299"
+                }
+            ],
+            "confidence": 0.7186137437820435
+        },
+        {
+            "mentionId": "67",
+            "type": "PROBLEM",
+            "text": {
+                "content": "herniation protrusion",
+                "beginOffset": 1789
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0240538"
+                },
+                {
+                    "entityId": "UMLS/C0241442"
+                },
+                {
+                    "entityId": "UMLS/C1846433"
+                },
+                {
+                    "entityId": "UMLS/C1850856"
+                },
+                {
+                    "entityId": "UMLS/C3278411"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9982808232307434
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9987525343894958
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.835332989692688
+        },
+        {
+            "mentionId": "68",
+            "type": "SEVERITY",
+            "text": {
+                "content": "moderate to severe",
+                "beginOffset": 1821
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1851086"
+                },
+                {
+                    "entityId": "UMLS/C3550392"
+                },
+                {
+                    "entityId": "UMLS/C3805317"
+                },
+                {
+                    "entityId": "UMLS/C4229553"
+                }
+            ],
+            "confidence": 0.9089476466178894
+        },
+        {
+            "mentionId": "69",
+            "type": "PROBLEM",
+            "text": {
+                "content": "canal stenosis",
+                "beginOffset": 1840
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C4539156"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.99239581823349
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9939146041870117
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.7611177563667297
+        },
+        {
+            "mentionId": "70",
+            "type": "PROBLEM",
+            "text": {
+                "content": "cordindentation",
+                "beginOffset": 1859
+            },
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9980923533439636
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9985769391059875
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.7863088250160217
+        },
+        {
+            "mentionId": "71",
+            "type": "PROBLEM",
+            "text": {
+                "content": "foraminal narrowing",
+                "beginOffset": 1880
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0014866"
+                },
+                {
+                    "entityId": "UMLS/C0040583"
+                },
+                {
+                    "entityId": "UMLS/C0041974"
+                },
+                {
+                    "entityId": "UMLS/C0267466"
+                },
+                {
+                    "entityId": "UMLS/C1832598"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9840919971466064
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9932308793067932
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9995359778404236
+            },
+            "confidence": 0.9473855495452881
+        },
+        {
+            "mentionId": "72",
+            "type": "SEVERITY",
+            "text": {
+                "content": "worse",
+                "beginOffset": 1924
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1457868"
+                }
+            ],
+            "confidence": 0.6198873519897461
+        },
+        {
+            "mentionId": "73",
+            "type": "SEVERITY",
+            "text": {
+                "content": "moderate",
+                "beginOffset": 1947
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C4085643"
+                },
+                {
+                    "entityId": "UMLS/C5201148"
+                }
+            ],
+            "confidence": 0.6384037733078003
+        },
+        {
+            "mentionId": "74",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "C7-T1",
+                "beginOffset": 1971
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0446417"
+                },
+                {
+                    "entityId": "UMLS/C1305861"
+                }
+            ],
+            "confidence": 0.9601387977600098
+        },
+        {
+            "mentionId": "75",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "disc",
+                "beginOffset": 1978
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1556138"
+                },
+                {
+                    "entityId": "UMLS/C1621443"
+                },
+                {
+                    "entityId": "UMLS/C2348299"
+                }
+            ],
+            "confidence": 0.6357641816139221
+        },
+        {
+            "mentionId": "76",
+            "type": "PROBLEM",
+            "text": {
+                "content": "herniation",
+                "beginOffset": 1983
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0270679"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9663282632827759
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.994710385799408
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.9850984811782837
+        },
+        {
+            "mentionId": "77",
+            "type": "SEVERITY",
+            "text": {
+                "content": "moderate",
+                "beginOffset": 2023
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C4085643"
+                },
+                {
+                    "entityId": "UMLS/C5201148"
+                }
+            ],
+            "confidence": 0.9069792628288269
+        },
+        {
+            "mentionId": "78",
+            "type": "PROBLEM",
+            "text": {
+                "content": "canal stenosis",
+                "beginOffset": 2032
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C4539156"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.8564193844795227
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.8378567695617676
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9990628957748413
+            },
+            "confidence": 0.7189667820930481
+        },
+        {
+            "mentionId": "79",
+            "type": "PROBLEM",
+            "text": {
+                "content": "isanterolisthesis",
+                "beginOffset": 2065
+            },
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9716151356697083
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9986605644226074
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996985197067261
+            },
+            "confidence": 0.425359845161438
+        },
+        {
+            "mentionId": "80",
+            "type": "PROBLEM",
+            "text": {
+                "content": "foraminal narrowing",
+                "beginOffset": 2112
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0014866"
+                },
+                {
+                    "entityId": "UMLS/C0040583"
+                },
+                {
+                    "entityId": "UMLS/C0041974"
+                },
+                {
+                    "entityId": "UMLS/C0267466"
+                },
+                {
+                    "entityId": "UMLS/C1832598"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9667394757270813
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9946480989456177
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9993922114372253
+            },
+            "confidence": 0.9219350814819336
+        },
+        {
+            "mentionId": "81",
+            "type": "SEVERITY",
+            "text": {
+                "content": "worse",
+                "beginOffset": 2187
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1457868"
+                }
+            ],
+            "confidence": 0.6884155869483948
+        },
+        {
+            "mentionId": "82",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "Uncovertebral joint",
+                "beginOffset": 2216
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C4763287"
+                }
+            ],
+            "confidence": 0.3762139678001404
+        },
+        {
+            "mentionId": "83",
+            "type": "PROBLEM",
+            "text": {
+                "content": "hypertrophy",
+                "beginOffset": 2236
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0020564"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9940676689147949
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9968646168708801
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.9923152923583984
+        },
+        {
+            "mentionId": "84",
+            "type": "PROBLEM",
+            "text": {
+                "content": "facetosteoarthropathy",
+                "beginOffset": 2252
+            },
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9527498483657837
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9510505795478821
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9992852210998535
+            },
+            "confidence": 0.9961754083633423
+        },
+        {
+            "mentionId": "85",
+            "type": "PROBLEM",
+            "text": {
+                "content": "lymphadenopathy",
+                "beginOffset": 2307
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0497156"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9781663417816162
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9980128407478333
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.9943608045578003
+        },
+        {
+            "mentionId": "86",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "neck",
+                "beginOffset": 2349
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0027530"
+                },
+                {
+                    "entityId": "UMLS/C3159206"
+                }
+            ],
+            "confidence": 0.9688599705696106
+        },
+        {
+            "mentionId": "87",
+            "type": "PROBLEM",
+            "text": {
+                "content": "adenopathy",
+                "beginOffset": 2408
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0497156"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9280229806900024
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9240784049034119
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9994791150093079
+            },
+            "confidence": 0.9594384431838989
+        },
+        {
+            "mentionId": "88",
+            "type": "PROBLEM",
+            "text": {
+                "content": "Lymphadenopathy",
+                "beginOffset": 2428
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0497156"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9979708790779114
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9994569420814514
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.9977011680603027
+        },
+        {
+            "mentionId": "89",
+            "type": "SEVERITY",
+            "text": {
+                "content": "worst",
+                "beginOffset": 2447
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C3827277"
+                },
+                {
+                    "entityId": "UMLS/C3827436"
+                },
+                {
+                    "entityId": "UMLS/C3827437"
+                },
+                {
+                    "entityId": "UMLS/C3827438"
+                },
+                {
+                    "entityId": "UMLS/C3827439"
+                }
+            ],
+            "confidence": 0.5344383120536804
+        },
+        {
+            "mentionId": "90",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "leftsupraclavicular region",
+                "beginOffset": 2465
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0205147"
+                },
+                {
+                    "entityId": "UMLS/C0205276"
+                },
+                {
+                    "entityId": "UMLS/C1947913"
+                }
+            ],
+            "confidence": 0.6217314600944519
+        },
+        {
+            "mentionId": "91",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "C5-6 disc",
+                "beginOffset": 2524
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0446415"
+                },
+                {
+                    "entityId": "UMLS/C1305859"
+                }
+            ],
+            "confidence": 0.8570967316627502
+        },
+        {
+            "mentionId": "92",
+            "type": "PROBLEM",
+            "text": {
+                "content": "bulge",
+                "beginOffset": 2534
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0015300"
+                },
+                {
+                    "entityId": "UMLS/C0022578"
+                },
+                {
+                    "entityId": "UMLS/C0235014"
+                },
+                {
+                    "entityId": "UMLS/C1833329"
+                },
+                {
+                    "entityId": "UMLS/C1867446"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9962208271026611
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9994545578956604
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.9243232607841492
+        },
+        {
+            "mentionId": "93",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "disc",
+                "beginOffset": 2544
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1556138"
+                },
+                {
+                    "entityId": "UMLS/C1621443"
+                },
+                {
+                    "entityId": "UMLS/C2348299"
+                }
+            ],
+            "confidence": 0.5593060851097107
+        },
+        {
+            "mentionId": "94",
+            "type": "PROBLEM",
+            "text": {
+                "content": "herniation",
+                "beginOffset": 2549
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0270679"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9951016306877136
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9992418885231018
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.975200355052948
+        },
+        {
+            "mentionId": "95",
+            "type": "SEVERITY",
+            "text": {
+                "content": "moderate to severe",
+                "beginOffset": 2578
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1851086"
+                },
+                {
+                    "entityId": "UMLS/C3550392"
+                },
+                {
+                    "entityId": "UMLS/C3805317"
+                },
+                {
+                    "entityId": "UMLS/C4229553"
+                }
+            ],
+            "confidence": 0.93430095911026
+        },
+        {
+            "mentionId": "96",
+            "type": "PROBLEM",
+            "text": {
+                "content": "canal stenosis",
+                "beginOffset": 2597
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C4539156"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9663484692573547
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9926843047142029
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996985197067261
+            },
+            "confidence": 0.723778486251831
+        },
+        {
+            "mentionId": "97",
+            "type": "PROBLEM",
+            "text": {
+                "content": "cordindentation",
+                "beginOffset": 2616
+            },
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9921495318412781
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9964526295661926
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996917247772217
+            },
+            "confidence": 0.895133376121521
+        },
+        {
+            "mentionId": "98",
+            "type": "PROBLEM",
+            "text": {
+                "content": "foraminal narrowing",
+                "beginOffset": 2637
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0014866"
+                },
+                {
+                    "entityId": "UMLS/C0040583"
+                },
+                {
+                    "entityId": "UMLS/C0041974"
+                },
+                {
+                    "entityId": "UMLS/C0267466"
+                },
+                {
+                    "entityId": "UMLS/C1832598"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9809749126434326
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.980478048324585
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9995234608650208
+            },
+            "confidence": 0.9401478171348572
+        },
+        {
+            "mentionId": "99",
+            "type": "SEVERITY",
+            "text": {
+                "content": "worse",
+                "beginOffset": 2670
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1457868"
+                }
+            ],
+            "confidence": 0.6904172897338867
+        },
+        {
+            "mentionId": "100",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "C6-7 disc",
+                "beginOffset": 2710
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0446416"
+                },
+                {
+                    "entityId": "UMLS/C1305860"
+                }
+            ],
+            "confidence": 0.8347159028053284
+        },
+        {
+            "mentionId": "101",
+            "type": "PROBLEM",
+            "text": {
+                "content": "bulge",
+                "beginOffset": 2720
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0015300"
+                },
+                {
+                    "entityId": "UMLS/C0022578"
+                },
+                {
+                    "entityId": "UMLS/C0235014"
+                },
+                {
+                    "entityId": "UMLS/C1833329"
+                },
+                {
+                    "entityId": "UMLS/C1867446"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9936258792877197
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9993401169776917
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.9621160626411438
+        },
+        {
+            "mentionId": "102",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "disc",
+                "beginOffset": 2745
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1556138"
+                },
+                {
+                    "entityId": "UMLS/C1621443"
+                },
+                {
+                    "entityId": "UMLS/C2348299"
+                }
+            ],
+            "confidence": 0.5045579075813293
+        },
+        {
+            "mentionId": "103",
+            "type": "PROBLEM",
+            "text": {
+                "content": "herniation",
+                "beginOffset": 2750
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0270679"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9960362911224365
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9989243745803833
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.9762405753135681
+        },
+        {
+            "mentionId": "104",
+            "type": "SEVERITY",
+            "text": {
+                "content": "moderate to severe",
+                "beginOffset": 2765
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1851086"
+                },
+                {
+                    "entityId": "UMLS/C3550392"
+                },
+                {
+                    "entityId": "UMLS/C3805317"
+                },
+                {
+                    "entityId": "UMLS/C4229553"
+                }
+            ],
+            "confidence": 0.9339170455932617
+        },
+        {
+            "mentionId": "105",
+            "type": "PROBLEM",
+            "text": {
+                "content": "canal stenosis",
+                "beginOffset": 2784
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C4539156"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9732531309127808
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9947792887687683
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.7499094605445862
+        },
+        {
+            "mentionId": "106",
+            "type": "PROBLEM",
+            "text": {
+                "content": "cordindentation",
+                "beginOffset": 2804
+            },
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9967644214630127
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9966305494308472
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996917247772217
+            },
+            "confidence": 0.7698207497596741
+        },
+        {
+            "mentionId": "107",
+            "type": "PROBLEM",
+            "text": {
+                "content": "foraminal narrowing",
+                "beginOffset": 2824
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0014866"
+                },
+                {
+                    "entityId": "UMLS/C0040583"
+                },
+                {
+                    "entityId": "UMLS/C0041974"
+                },
+                {
+                    "entityId": "UMLS/C0267466"
+                },
+                {
+                    "entityId": "UMLS/C1832598"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9870514273643494
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9891369342803955
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9993922114372253
+            },
+            "confidence": 0.9128666520118713
+        },
+        {
+            "mentionId": "108",
+            "type": "SEVERITY",
+            "text": {
+                "content": "mild",
+                "beginOffset": 2868
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0239574"
+                },
+                {
+                    "entityId": "UMLS/C0278138"
+                },
+                {
+                    "entityId": "UMLS/C1837545"
+                },
+                {
+                    "entityId": "UMLS/C1839253"
+                },
+                {
+                    "entityId": "UMLS/C1840417"
+                }
+            ],
+            "confidence": 0.42584770917892456
+        },
+        {
+            "mentionId": "109",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "C4-5 disc",
+                "beginOffset": 2923
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0446414"
+                },
+                {
+                    "entityId": "UMLS/C1305858"
+                }
+            ],
+            "confidence": 0.8406433463096619
+        },
+        {
+            "mentionId": "110",
+            "type": "PROBLEM",
+            "text": {
+                "content": "bulge",
+                "beginOffset": 2933
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0015300"
+                },
+                {
+                    "entityId": "UMLS/C0022578"
+                },
+                {
+                    "entityId": "UMLS/C0235014"
+                },
+                {
+                    "entityId": "UMLS/C1833329"
+                },
+                {
+                    "entityId": "UMLS/C1867446"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9978985786437988
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9993941783905029
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.934953510761261
+        },
+        {
+            "mentionId": "111",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "disc",
+                "beginOffset": 2943
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1556138"
+                },
+                {
+                    "entityId": "UMLS/C1621443"
+                },
+                {
+                    "entityId": "UMLS/C2348299"
+                }
+            ],
+            "confidence": 0.5090282559394836
+        },
+        {
+            "mentionId": "112",
+            "type": "PROBLEM",
+            "text": {
+                "content": "herniation",
+                "beginOffset": 2948
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0270679"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9962463974952698
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9991062879562378
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.9778839945793152
+        },
+        {
+            "mentionId": "113",
+            "type": "SEVERITY",
+            "text": {
+                "content": "moderate",
+                "beginOffset": 2977
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C4085643"
+                },
+                {
+                    "entityId": "UMLS/C5201148"
+                }
+            ],
+            "confidence": 0.9058905839920044
+        },
+        {
+            "mentionId": "114",
+            "type": "PROBLEM",
+            "text": {
+                "content": "canal stenosis",
+                "beginOffset": 2986
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C4539156"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9481580257415771
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9913067817687988
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9994351267814636
+            },
+            "confidence": 0.7108608484268188
+        },
+        {
+            "mentionId": "115",
+            "type": "PROBLEM",
+            "text": {
+                "content": "cord indentationwith",
+                "beginOffset": 3005
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C3489532"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9616139531135559
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.99385005235672
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996505379676819
+            },
+            "confidence": 0.44150814414024353
+        },
+        {
+            "mentionId": "116",
+            "type": "PROBLEM",
+            "text": {
+                "content": "foraminal narrowing",
+                "beginOffset": 3026
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0014866"
+                },
+                {
+                    "entityId": "UMLS/C0040583"
+                },
+                {
+                    "entityId": "UMLS/C0041974"
+                },
+                {
+                    "entityId": "UMLS/C0267466"
+                },
+                {
+                    "entityId": "UMLS/C1832598"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9690633416175842
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9381101131439209
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9990479350090027
+            },
+            "confidence": 0.908311128616333
+        },
+        {
+            "mentionId": "117",
+            "type": "SEVERITY",
+            "text": {
+                "content": "worse",
+                "beginOffset": 3058
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1457868"
+                }
+            ],
+            "confidence": 0.7453804612159729
+        },
+        {
+            "mentionId": "118",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "C3-4",
+                "beginOffset": 3104
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0446413"
+                },
+                {
+                    "entityId": "UMLS/C1305853"
+                }
+            ],
+            "confidence": 0.8970918655395508
+        },
+        {
+            "mentionId": "119",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "disc",
+                "beginOffset": 3115
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C1556138"
+                },
+                {
+                    "entityId": "UMLS/C1621443"
+                },
+                {
+                    "entityId": "UMLS/C2348299"
+                }
+            ],
+            "confidence": 0.650011420249939
+        },
+        {
+            "mentionId": "120",
+            "type": "PROBLEM",
+            "text": {
+                "content": "herniation",
+                "beginOffset": 3120
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0270679"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9961222410202026
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9968985319137573
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.9000596404075623
+        },
+        {
+            "mentionId": "121",
+            "type": "PROBLEM",
+            "text": {
+                "content": "canal",
+                "beginOffset": 3155
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0035848"
+                },
+                {
+                    "entityId": "UMLS/C0035849"
+                },
+                {
+                    "entityId": "UMLS/C0263526"
+                },
+                {
+                    "entityId": "UMLS/C0282543"
+                },
+                {
+                    "entityId": "UMLS/C0345883"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.057481713593006134
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.057481713593006134
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.057481713593006134
+            },
+            "confidence": 0.7433925867080688
+        },
+        {
+            "mentionId": "122",
+            "type": "PROBLEM",
+            "text": {
+                "content": "lymphadenopathy",
+                "beginOffset": 3182
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0497156"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9985573291778564
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.99940425157547
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.9940104484558105
+        },
+        {
+            "mentionId": "123",
+            "type": "ANATOMICAL_STRUCTURE",
+            "text": {
+                "content": "neck",
+                "beginOffset": 3205
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0027530"
+                },
+                {
+                    "entityId": "UMLS/C3159206"
+                }
+            ],
+            "confidence": 0.9295394420623779
+        },
+        {
+            "mentionId": "124",
+            "type": "PROBLEM",
+            "text": {
+                "content": "sidedsupraclavicular adenopathy",
+                "beginOffset": 3257
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0497156"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.8960293531417847
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9942224025726318
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996436834335327
+            },
+            "confidence": 0.5812671184539795
+        },
+        {
+            "mentionId": "125",
+            "type": "PROCEDURE",
+            "text": {
+                "content": "CTneck",
+                "beginOffset": 3349
+            },
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9311806559562683
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9970600008964539
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996469616889954
+            },
+            "confidence": 0.7474580407142639
+        },
+        {
+            "mentionId": "126",
+            "type": "PROC_METHOD",
+            "text": {
+                "content": "with contrast",
+                "beginOffset": 3356
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0009924"
+                }
+            ],
+            "confidence": 0.8866021037101746
+        },
+        {
+            "mentionId": "127",
+            "type": "PROBLEM",
+            "text": {
+                "content": "adenopathy",
+                "beginOffset": 3400
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0497156"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9628505110740662
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9143276214599609
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9996373057365417
+            },
+            "confidence": 0.9413810968399048
+        },
+        {
+            "mentionId": "128",
+            "type": "PROBLEM",
+            "text": {
+                "content": "lymphomawould",
+                "beginOffset": 3433
+            },
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9858430624008179
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.7942928671836853
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.999661922454834
+            },
+            "confidence": 0.8364327549934387
+        },
+        {
+            "mentionId": "129",
+            "type": "PROBLEM",
+            "text": {
+                "content": "lymphadenopathy",
+                "beginOffset": 3490
+            },
+            "linkedEntities": [
+                {
+                    "entityId": "UMLS/C0497156"
+                }
+            ],
+            "temporalAssessment": {
+                "value": "CURRENT",
+                "confidence": 0.9388087391853333
+            },
+            "certaintyAssessment": {
+                "value": "LIKELY",
+                "confidence": 0.9750859141349792
+            },
+            "subject": {
+                "value": "PATIENT",
+                "confidence": 0.9995116591453552
+            },
+            "confidence": 0.9484230279922485
+        }
+    ],
+    "entities": [
+        {
+            "entityId": "UMLS/C0004168",
+            "preferredTerm": "Atlanto-Axial joint",
+            "vocabularyCodes": [
+                "FMA/25524",
+                "FMA/72336",
+                "MSH/D001268",
+                "MTH/NOCODE",
+                "NCI/C32157"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0005953",
+            "preferredTerm": "Bone Marrow",
+            "vocabularyCodes": [
+                "FMA/9608",
+                "LNC/LA21012-2",
+                "LNC/LP199959-0",
+                "LNC/LP213600-2",
+                "LNC/LP33671-6",
+                "LNC/LP7410-6",
+                "LNC/MTHU001324",
+                "MSH/D001853",
+                "MTH/NOCODE",
+                "NCI/C12431"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0009600",
+            "preferredTerm": "Echotomography, Computer",
+            "vocabularyCodes": [
+                "MSH/D014463"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0009924",
+            "preferredTerm": "Contrast Media",
+            "vocabularyCodes": [
+                "LNC/LA20339-0",
+                "LNC/LP266908-5",
+                "MSH/D003287",
+                "MTH/NOCODE",
+                "NCI/C390"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0013516",
+            "preferredTerm": "Echocardiography",
+            "vocabularyCodes": [
+                "ICD9CM/88.72",
+                "LNC/LA11845-7",
+                "LNC/LA24330-5",
+                "LNC/LA7215-2",
+                "LNC/LP6171-5",
+                "MSH/D004452",
+                "MTH/NOCODE",
+                "NCI/C16525"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0013604",
+            "preferredTerm": "Edema",
+            "vocabularyCodes": [
+                "HPO/HP:0000969",
+                "ICD9CM/782.3",
+                "LNC/LA17263-7",
+                "LNC/LA19035-7",
+                "LNC/LP72527-2",
+                "LNC/MTHU019803",
+                "MEDLINEPLUS/1229",
+                "MSH/D004487",
+                "MTH/715",
+                "MTH/NOCODE",
+                "NCI/C3002",
+                "OMIM/MTHU000002",
+                "OMIM/MTHU007987"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0014866",
+            "preferredTerm": "Esophageal Stenosis",
+            "vocabularyCodes": [
+                "HPO/HP:0010450",
+                "MSH/D004940",
+                "MTH/NOCODE",
+                "OMIM/MTHU069574"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0015300",
+            "preferredTerm": "Exophthalmos",
+            "vocabularyCodes": [
+                "HPO/HP:0000520",
+                "ICD9CM/376.30",
+                "MSH/D005094",
+                "MTH/NOCODE",
+                "NCI/C118763",
+                "NCI/C87114",
+                "OMIM/MTHU001173",
+                "OMIM/MTHU004615",
+                "OMIM/MTHU005786",
+                "OMIM/MTHU016288",
+                "OMIM/MTHU019358"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0016103",
+            "preferredTerm": "Film Dosimetry",
+            "vocabularyCodes": [
+                "MSH/D005373"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0020564",
+            "preferredTerm": "Hypertrophy",
+            "vocabularyCodes": [
+                "LNC/LA19617-2",
+                "LNC/LP31563-7",
+                "LNC/MTHU024506",
+                "MSH/D006984",
+                "MTH/NOCODE",
+                "NCI/C3124",
+                "OMIM/MTHU070941"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0022408",
+            "preferredTerm": "Arthropathy",
+            "vocabularyCodes": [
+                "HPO/HP:0001367",
+                "HPO/HP:0003040",
+                "ICD9CM/716.9",
+                "ICD9CM/716.90",
+                "ICD9CM/719.9",
+                "ICD9CM/719.90",
+                "MEDLINEPLUS/4621",
+                "MSH/D007592",
+                "MTH/NOCODE",
+                "NCI/C35760",
+                "OMIM/MTHU012515"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0022578",
+            "preferredTerm": "Keratoconus",
+            "vocabularyCodes": [
+                "HPO/HP:0000563",
+                "ICD9CM/371.6",
+                "ICD9CM/371.60",
+                "MSH/D007640",
+                "NCI/C26806",
+                "OMIM/MTHU036426"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0024003",
+            "preferredTerm": "Lordosis",
+            "vocabularyCodes": [
+                "HPO/HP:0003307",
+                "MSH/D008141",
+                "MTH/NOCODE",
+                "NCI/C34787",
+                "OMIM/MTHU003604",
+                "OMIM/MTHU003664"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0026995",
+            "preferredTerm": "Myelography",
+            "vocabularyCodes": [
+                "ICD9CM/87.21",
+                "LNC/LP263782-7",
+                "MSH/D009192",
+                "MTH/NOCODE",
+                "NCI/C16888",
+                "NCI/C20175"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0027530",
+            "preferredTerm": "Neck",
+            "vocabularyCodes": [
+                "FMA/7155",
+                "LNC/LA12703-7",
+                "LNC/LP199995-4",
+                "LNC/LP7440-3",
+                "LNC/MTHU002688",
+                "MSH/D009333",
+                "MTH/NOCODE",
+                "NCI/C13063",
+                "OMIM/MTHU000513"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0030193",
+            "preferredTerm": "Pain",
+            "vocabularyCodes": [
+                "HPO/HP:0012531",
+                "ICD9CM/338-338.99",
+                "LNC/LA17107-6",
+                "LNC/LA27491-2",
+                "LNC/LA7460-4",
+                "LNC/LP75331-6",
+                "LNC/LP75342-3",
+                "LNC/MTHU021175",
+                "LNC/MTHU029813",
+                "MEDLINEPLUS/351",
+                "MSH/D010146",
+                "MTH/306",
+                "MTH/NOCODE",
+                "NCI/C25271",
+                "NCI/C3303",
+                "OMIM/MTHU033713"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0035848",
+            "preferredTerm": "Root Canal Obturation",
+            "vocabularyCodes": [
+                "MSH/D012389"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0035849",
+            "preferredTerm": "Root Canal Therapy",
+            "vocabularyCodes": [
+                "ICD9CM/23.70",
+                "MSH/D012390",
+                "MTH/U002230"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0037303",
+            "preferredTerm": "Bone structure of cranium",
+            "vocabularyCodes": [
+                "FMA/326476",
+                "FMA/46565",
+                "FMA/71325",
+                "FMA/74538",
+                "LNC/LP7154-0",
+                "LNC/MTHU003024",
+                "MSH/D012886",
+                "MTH/NOCODE",
+                "NCI/C12789"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0037949",
+            "preferredTerm": "Vertebral column",
+            "vocabularyCodes": [
+                "FMA/13478",
+                "LNC/LA4340-1",
+                "LNC/LP200016-6",
+                "LNC/LP234806-0",
+                "LNC/LP7596-2",
+                "LNC/MTHU003055",
+                "MSH/D013131",
+                "MTH/U002265",
+                "NCI/C12998",
+                "OMIM/MTHU000034"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0040583",
+            "preferredTerm": "Tracheal Stenosis",
+            "vocabularyCodes": [
+                "HPO/HP:0002777",
+                "MSH/D014135",
+                "MTH/NOCODE",
+                "NCI/C78646",
+                "OMIM/MTHU007985",
+                "OMIM/MTHU042798"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0041974",
+            "preferredTerm": "Urethral Stenosis",
+            "vocabularyCodes": [
+                "HPO/HP:0008661",
+                "MSH/D014525",
+                "MTH/NOCODE",
+                "OMIM/MTHU007767"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0058928",
+            "preferredTerm": "ECHO protocol",
+            "vocabularyCodes": [
+                "MSH/C035381",
+                "MTH/U002542",
+                "NCI/C9588"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0205129",
+            "preferredTerm": "Sagittal",
+            "vocabularyCodes": [
+                "FMA/74530",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0205147",
+            "preferredTerm": "regional",
+            "vocabularyCodes": [
+                "LNC/LA3697-5",
+                "LNC/LA4380-7",
+                "LNC/LP73261-7",
+                "LNC/MTHU009053",
+                "MTH/NOCODE",
+                "NCI/C25643",
+                "NCI/C41129"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0205276",
+            "preferredTerm": "Local",
+            "vocabularyCodes": [
+                "LNC/LA4583-6",
+                "MTH/NOCODE",
+                "NCI/C67263"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0223633",
+            "preferredTerm": "Structure of clavicular facet of scapula",
+            "vocabularyCodes": [
+                "FMA/23303",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0224521",
+            "preferredTerm": "Facet joint structure",
+            "vocabularyCodes": [
+                "FMA/10447",
+                "FMA/71382",
+                "MSH/D021801",
+                "MTH/NOCODE",
+                "NCI/C32577"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0225002",
+            "preferredTerm": "Structure of alar ligaments",
+            "vocabularyCodes": [
+                "FMA/24919",
+                "FMA/71395"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0230316",
+            "preferredTerm": "Structure of transverse cervical ligament",
+            "vocabularyCodes": [
+                "FMA/19112",
+                "FMA/77064",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0235014",
+            "preferredTerm": "Bulging fontanelle",
+            "vocabularyCodes": [
+                "NCI/C116897",
+                "OMIM/MTHU009679"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0239574",
+            "preferredTerm": "Low grade fever",
+            "vocabularyCodes": [
+                "HPO/HP:0011134",
+                "MTH/NOCODE",
+                "NCI/C35292"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0240538",
+            "preferredTerm": "Convex nasal ridge",
+            "vocabularyCodes": [
+                "HPO/HP:0000444",
+                "OMIM/MTHU000581",
+                "OMIM/MTHU007841",
+                "OMIM/MTHU030553",
+                "OMIM/MTHU031792"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0241442",
+            "preferredTerm": "Tongue protrusion",
+            "vocabularyCodes": [
+                "HPO/HP:0010808",
+                "OMIM/MTHU007265",
+                "OMIM/MTHU012130",
+                "OMIM/MTHU065768"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0263526",
+            "preferredTerm": "",
+            "vocabularyCodes": [
+                "HPO/HP:0030818"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0267466",
+            "preferredTerm": "Colonic Stenosis",
+            "vocabularyCodes": [
+                "HPO/HP:0012851",
+                "MTH/NOCODE",
+                "NCI/C78243"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0270679",
+            "preferredTerm": "Brain stem herniation",
+            "vocabularyCodes": [
+                "MTH/NOCODE",
+                "OMIM/MTHU067201"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0278138",
+            "preferredTerm": "Mild pain",
+            "vocabularyCodes": [
+                "LNC/LA15111-0",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0282543",
+            "preferredTerm": "Root Canal Preparation",
+            "vocabularyCodes": [
+                "MSH/D018915"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0345883",
+            "preferredTerm": "Neoplasm of anal canal",
+            "vocabularyCodes": [
+                "HPO/HP:0030437"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0376444",
+            "preferredTerm": "Echo Endoscopy",
+            "vocabularyCodes": [
+                "MSH/D019160",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0424641",
+            "preferredTerm": "",
+            "vocabularyCodes": [
+                "ICD9CM/781.91"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0446413",
+            "preferredTerm": "C3 level",
+            "vocabularyCodes": [
+                "FMA/20314",
+                "LNC/LA32080-6",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0446414",
+            "preferredTerm": "C4 level",
+            "vocabularyCodes": [
+                "FMA/20316",
+                "LNC/LA32081-4",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0446415",
+            "preferredTerm": "C5 level",
+            "vocabularyCodes": [
+                "FMA/20317",
+                "LNC/LA32082-2",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0446416",
+            "preferredTerm": "C6 level",
+            "vocabularyCodes": [
+                "FMA/20318",
+                "LNC/LA32083-0",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0446417",
+            "preferredTerm": "C7 level",
+            "vocabularyCodes": [
+                "FMA/20319",
+                "LNC/LA32084-8",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0497156",
+            "preferredTerm": "Lymphadenopathy",
+            "vocabularyCodes": [
+                "HPO/HP:0002716",
+                "LNC/LP247924-6",
+                "LNC/MTHU056456",
+                "MSH/D000072281",
+                "MTH/NOCODE",
+                "NCI/C50764",
+                "OMIM/MTHU002630"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0518656",
+            "preferredTerm": "Chronic fatigue",
+            "vocabularyCodes": [
+                "HPO/HP:0012432"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0581269",
+            "preferredTerm": "Thoracic spine structure",
+            "vocabularyCodes": [
+                "FMA/9140",
+                "LNC/LA22128-5",
+                "LNC/LP200020-8",
+                "LNC/LP30308-8",
+                "LNC/MTHU012102",
+                "MTH/NOCODE",
+                "NCI/C69315"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0745188",
+            "preferredTerm": "Chronic hypoxemia",
+            "vocabularyCodes": [
+                "OMIM/MTHU031698"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0746367",
+            "preferredTerm": "Chronic malnutrition",
+            "vocabularyCodes": [
+                "OMIM/MTHU005168"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0911799",
+            "preferredTerm": "FILM protocol",
+            "vocabularyCodes": [
+                "MSH/C403590"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0920208",
+            "preferredTerm": "Echocardiography, Stress",
+            "vocabularyCodes": [
+                "LNC/LA28649-4",
+                "MSH/D025401",
+                "NCI/C80407"
+            ]
+        },
+        {
+            "entityId": "UMLS/C0935598",
+            "preferredTerm": "Sagittal plane",
+            "vocabularyCodes": [
+                "FMA/11361",
+                "FMA/71926",
+                "MTH/NOCODE",
+                "NCI/C94973"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1179688",
+            "preferredTerm": "T2 innervation",
+            "vocabularyCodes": [
+                "FMA/63504",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1294197",
+            "preferredTerm": "Nucleic acid sequencing",
+            "vocabularyCodes": [
+                "LNC/LA26398-0",
+                "LNC/LP150045-5",
+                "MTH/NOCODE",
+                "NCI/C18881"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1305853",
+            "preferredTerm": "C3 innervation",
+            "vocabularyCodes": [
+                "FMA/63496",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1305856",
+            "preferredTerm": "C1 innervation",
+            "vocabularyCodes": [
+                "FMA/63493",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1305857",
+            "preferredTerm": "C2 innervation",
+            "vocabularyCodes": [
+                "FMA/63494",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1305858",
+            "preferredTerm": "C4 innervation",
+            "vocabularyCodes": [
+                "FMA/63497",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1305859",
+            "preferredTerm": "C5 innervation",
+            "vocabularyCodes": [
+                "FMA/63498",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1305860",
+            "preferredTerm": "C6 innervation",
+            "vocabularyCodes": [
+                "FMA/63499",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1305861",
+            "preferredTerm": "C7 innervation",
+            "vocabularyCodes": [
+                "FMA/63500",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1441758",
+            "preferredTerm": "Thick film procedure",
+            "vocabularyCodes": [
+                "LNC/LP6552-6",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1441759",
+            "preferredTerm": "Thin film method",
+            "vocabularyCodes": [
+                "LNC/LP6553-4",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1457868",
+            "preferredTerm": "Worse",
+            "vocabularyCodes": [
+                "LNC/LA11011-6",
+                "LNC/LA14960-1",
+                "LNC/LA32282-8",
+                "LNC/LA66-6",
+                "MTH/NOCODE",
+                "NCI/C71686"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1550235",
+            "preferredTerm": "Cord - Body Parts",
+            "vocabularyCodes": [
+                "MTH/NOCODE",
+                "NCI/C61540"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1556138",
+            "preferredTerm": "Disc - Body Part",
+            "vocabularyCodes": [
+                "MTH/NOCODE",
+                "NCI/C62260"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1621443",
+            "preferredTerm": "death-inducing signaling complex location",
+            "vocabularyCodes": [
+                "GO/GO:0031264",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1832598",
+            "preferredTerm": "Narrow vertebral interpedicular distance",
+            "vocabularyCodes": [
+                "HPO/HP:0008450",
+                "OMIM/MTHU006082",
+                "OMIM/MTHU011571",
+                "OMIM/MTHU019767"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1833329",
+            "preferredTerm": "Bulging epiphyses",
+            "vocabularyCodes": [
+                "HPO/HP:0003013",
+                "OMIM/MTHU006330"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1837545",
+            "preferredTerm": "Nystagmus, mild",
+            "vocabularyCodes": [
+                "OMIM/MTHU001863"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1839253",
+            "preferredTerm": "Mild scoliosis",
+            "vocabularyCodes": [
+                "OMIM/MTHU006842",
+                "OMIM/MTHU034731"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1840417",
+            "preferredTerm": "Mild sclerosis",
+            "vocabularyCodes": [
+                "OMIM/MTHU017793"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1846433",
+            "preferredTerm": "Prominent sternum",
+            "vocabularyCodes": [
+                "HPO/HP:0000884",
+                "OMIM/MTHU003433",
+                "OMIM/MTHU008513"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1850856",
+            "preferredTerm": "Calcaneal protrusion",
+            "vocabularyCodes": [
+                "OMIM/MTHU011015"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1851086",
+            "preferredTerm": "Moderate to severe hypotonia",
+            "vocabularyCodes": [
+                "OMIM/MTHU018123"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1867446",
+            "preferredTerm": "Bulging forehead",
+            "vocabularyCodes": [
+                "HPO/HP:0011220",
+                "OMIM/MTHU015851"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1947913",
+            "preferredTerm": "Local-Regional anatomy",
+            "vocabularyCodes": [
+                "MTH/NOCODE",
+                "NCI/C25388"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1956089",
+            "preferredTerm": "Osteophyte",
+            "vocabularyCodes": [
+                "MSH/D054850",
+                "MTH/NOCODE",
+                "NCI/C139151"
+            ]
+        },
+        {
+            "entityId": "UMLS/C1997771",
+            "preferredTerm": "Chronic hypercapnia",
+            "vocabularyCodes": [
+                "OMIM/MTHU031699"
+            ]
+        },
+        {
+            "entityId": "UMLS/C2348299",
+            "preferredTerm": "Disc Shape",
+            "vocabularyCodes": [
+                "MTH/NOCODE",
+                "NCI/C73648"
+            ]
+        },
+        {
+            "entityId": "UMLS/C2673788",
+            "preferredTerm": "Chronic tearing",
+            "vocabularyCodes": [
+                "OMIM/MTHU023532"
+            ]
+        },
+        {
+            "entityId": "UMLS/C2752558",
+            "preferredTerm": "Neuron spine",
+            "vocabularyCodes": [
+                "GO/GO:0044309",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C2938912",
+            "preferredTerm": "Hyperintensity of cerebral white matter on MRI",
+            "vocabularyCodes": [
+                "HPO/HP:0030890",
+                "OMIM/MTHU042927"
+            ]
+        },
+        {
+            "entityId": "UMLS/C2951888",
+            "preferredTerm": "Skull",
+            "vocabularyCodes": [
+                "FMA/23884",
+                "FMA/272821",
+                "LNC/LA4331-0",
+                "LNC/LP221496-5",
+                "LNC/LP30281-7",
+                "LNC/MTHU010291",
+                "MTH/NOCODE",
+                "OMIM/MTHU000032"
+            ]
+        },
+        {
+            "entityId": "UMLS/C2986595",
+            "preferredTerm": "Film Mammography",
+            "vocabularyCodes": [
+                "NCI/C94605"
+            ]
+        },
+        {
+            "entityId": "UMLS/C3149362",
+            "preferredTerm": "Cortical and subcortical hyperintensities",
+            "vocabularyCodes": [
+                "OMIM/MTHU029626"
+            ]
+        },
+        {
+            "entityId": "UMLS/C3159206",
+            "preferredTerm": "dendritic spine neck",
+            "vocabularyCodes": [
+                "GO/GO:0044326",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C3278411",
+            "preferredTerm": "Protrusion of abdomen",
+            "vocabularyCodes": [
+                "OMIM/MTHU067698"
+            ]
+        },
+        {
+            "entityId": "UMLS/C3489532",
+            "preferredTerm": "Cone-Rod Dystrophy 2",
+            "vocabularyCodes": [
+                "MSH/D000071700",
+                "MTH/NOCODE",
+                "NCI/C162399",
+                "OMIM/120970",
+                "OMIM/602225"
+            ]
+        },
+        {
+            "entityId": "UMLS/C3550392",
+            "preferredTerm": "Constipation, moderate to severe",
+            "vocabularyCodes": [
+                "OMIM/MTHU037525"
+            ]
+        },
+        {
+            "entityId": "UMLS/C3805317",
+            "preferredTerm": "Moderate to severe acne",
+            "vocabularyCodes": [
+                "OMIM/MTHU041139"
+            ]
+        },
+        {
+            "entityId": "UMLS/C3827277",
+            "preferredTerm": "Worst Possible Depression",
+            "vocabularyCodes": [
+                "NCI/C107395"
+            ]
+        },
+        {
+            "entityId": "UMLS/C3827436",
+            "preferredTerm": "Worst Possible Tiredness",
+            "vocabularyCodes": [
+                "NCI/C107393"
+            ]
+        },
+        {
+            "entityId": "UMLS/C3827437",
+            "preferredTerm": "Worst Possible Symptom",
+            "vocabularyCodes": [
+                "NCI/C107401"
+            ]
+        },
+        {
+            "entityId": "UMLS/C3827438",
+            "preferredTerm": "Worst Possible Pain",
+            "vocabularyCodes": [
+                "NCI/C107392"
+            ]
+        },
+        {
+            "entityId": "UMLS/C3827439",
+            "preferredTerm": "Worst Possible Nausea",
+            "vocabularyCodes": [
+                "NCI/C107394"
+            ]
+        },
+        {
+            "entityId": "UMLS/C3897005",
+            "preferredTerm": "Spinous Processes",
+            "vocabularyCodes": [
+                "MSH/D000083442",
+                "NCI/C116112"
+            ]
+        },
+        {
+            "entityId": "UMLS/C4085643",
+            "preferredTerm": "Moderate Response",
+            "vocabularyCodes": [
+                "MTH/NOCODE",
+                "NCI/C125256"
+            ]
+        },
+        {
+            "entityId": "UMLS/C4229553",
+            "preferredTerm": "Erythroderma, moderate to severe",
+            "vocabularyCodes": [
+                "OMIM/MTHU050866"
+            ]
+        },
+        {
+            "entityId": "UMLS/C4299122",
+            "preferredTerm": "Head>Skull",
+            "vocabularyCodes": [
+                "LNC/LP221495-7",
+                "LNC/MTHU053787",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C4314149",
+            "preferredTerm": "T2-weighted hyperintensities",
+            "vocabularyCodes": [
+                "OMIM/MTHU070219"
+            ]
+        },
+        {
+            "entityId": "UMLS/C4531279",
+            "preferredTerm": "Striatal T2 hyperintensity",
+            "vocabularyCodes": [
+                "HPO/HP:0031206"
+            ]
+        },
+        {
+            "entityId": "UMLS/C4539156",
+            "preferredTerm": "Auditory canal stenosis",
+            "vocabularyCodes": [
+                "OMIM/MTHU058731"
+            ]
+        },
+        {
+            "entityId": "UMLS/C4763287",
+            "preferredTerm": "Joint of Luschka",
+            "vocabularyCodes": [
+                "FMA/329190"
+            ]
+        },
+        {
+            "entityId": "UMLS/C5201148",
+            "preferredTerm": "Moderate",
+            "vocabularyCodes": [
+                "LNC/LA13939-6",
+                "LNC/LA6751-7",
+                "MTH/NOCODE"
+            ]
+        },
+        {
+            "entityId": "UMLS/C5233075",
+            "preferredTerm": "Hyperintensity of subthalamic nuclei",
+            "vocabularyCodes": [
+                "OMIM/MTHU066143"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "subjectId": "101",
+            "objectId": "100",
+            "confidence": 0.9991883635520935
+        },
+        {
+            "subjectId": "103",
+            "objectId": "100",
+            "confidence": 0.8976672291755676
+        },
+        {
+            "subjectId": "103",
+            "objectId": "102",
+            "confidence": 0.9787732362747192
+        },
+        {
+            "subjectId": "105",
+            "objectId": "104",
+            "confidence": 0.9996469616889954
+        },
+        {
+            "subjectId": "110",
+            "objectId": "109",
+            "confidence": 0.9993436336517334
+        },
+        {
+            "subjectId": "112",
+            "objectId": "109",
+            "confidence": 0.543199360370636
+        },
+        {
+            "subjectId": "112",
+            "objectId": "111",
+            "confidence": 0.9761790633201599
+        },
+        {
+            "subjectId": "12",
+            "objectId": "13",
+            "confidence": 0.9996469616889954
+        },
+        {
+            "subjectId": "12",
+            "objectId": "14",
+            "confidence": 0.9996469616889954
+        },
+        {
+            "subjectId": "120",
+            "objectId": "118",
+            "confidence": 0.9979178309440613
+        },
+        {
+            "subjectId": "120",
+            "objectId": "119",
+            "confidence": 0.9946457147598267
+        },
+        {
+            "subjectId": "122",
+            "objectId": "123",
+            "confidence": 0.999570906162262
+        },
+        {
+            "subjectId": "125",
+            "objectId": "126",
+            "confidence": 0.9991105794906616
+        },
+        {
+            "subjectId": "127",
+            "objectId": "125",
+            "confidence": 0.9911858439445496
+        },
+        {
+            "subjectId": "128",
+            "objectId": "125",
+            "confidence": 0.984286904335022
+        },
+        {
+            "subjectId": "129",
+            "objectId": "125",
+            "confidence": 0.919408917427063
+        },
+        {
+            "subjectId": "20",
+            "objectId": "19",
+            "confidence": 0.9996469616889954
+        },
+        {
+            "subjectId": "24",
+            "objectId": "23",
+            "confidence": 0.9973602294921875
+        },
+        {
+            "subjectId": "27",
+            "objectId": "26",
+            "confidence": 0.9843345880508423
+        },
+        {
+            "subjectId": "3",
+            "objectId": "1",
+            "confidence": 0.9990588426589966
+        },
+        {
+            "subjectId": "3",
+            "objectId": "2",
+            "confidence": 0.9997164607048035
+        },
+        {
+            "subjectId": "30",
+            "objectId": "29",
+            "confidence": 0.997556209564209
+        },
+        {
+            "subjectId": "34",
+            "objectId": "33",
+            "confidence": 0.9673261046409607
+        },
+        {
+            "subjectId": "38",
+            "objectId": "36",
+            "confidence": 0.9973773956298828
+        },
+        {
+            "subjectId": "38",
+            "objectId": "37",
+            "confidence": 0.9996505379676819
+        },
+        {
+            "subjectId": "40",
+            "objectId": "39",
+            "confidence": 0.9961587190628052
+        },
+        {
+            "subjectId": "42",
+            "objectId": "41",
+            "confidence": 0.9214750528335571
+        },
+        {
+            "subjectId": "44",
+            "objectId": "41",
+            "confidence": 0.8190292119979858
+        },
+        {
+            "subjectId": "48",
+            "objectId": "45",
+            "confidence": 0.902081310749054
+        },
+        {
+            "subjectId": "48",
+            "objectId": "47",
+            "confidence": 0.9673373699188232
+        },
+        {
+            "subjectId": "50",
+            "objectId": "49",
+            "confidence": 0.9503173828125
+        },
+        {
+            "subjectId": "51",
+            "objectId": "53",
+            "confidence": 0.6820667386054993
+        },
+        {
+            "subjectId": "52",
+            "objectId": "53",
+            "confidence": 0.9751451015472412
+        },
+        {
+            "subjectId": "54",
+            "objectId": "55",
+            "confidence": 0.9996469616889954
+        },
+        {
+            "subjectId": "59",
+            "objectId": "56",
+            "confidence": 0.9602423906326294
+        },
+        {
+            "subjectId": "59",
+            "objectId": "58",
+            "confidence": 0.9847091436386108
+        },
+        {
+            "subjectId": "61",
+            "objectId": "60",
+            "confidence": 0.9996469616889954
+        },
+        {
+            "subjectId": "62",
+            "objectId": "64",
+            "confidence": 0.7449656128883362
+        },
+        {
+            "subjectId": "63",
+            "objectId": "64",
+            "confidence": 0.9922003149986267
+        },
+        {
+            "subjectId": "67",
+            "objectId": "65",
+            "confidence": 0.9995424747467041
+        },
+        {
+            "subjectId": "67",
+            "objectId": "66",
+            "confidence": 0.9990120530128479
+        },
+        {
+            "subjectId": "69",
+            "objectId": "65",
+            "confidence": 0.9792970418930054
+        },
+        {
+            "subjectId": "69",
+            "objectId": "68",
+            "confidence": 0.9996469616889954
+        },
+        {
+            "subjectId": "69",
+            "objectId": "73",
+            "confidence": 0.8366328477859497
+        },
+        {
+            "subjectId": "70",
+            "objectId": "65",
+            "confidence": 0.6843520998954773
+        },
+        {
+            "subjectId": "70",
+            "objectId": "68",
+            "confidence": 0.5552573800086975
+        },
+        {
+            "subjectId": "70",
+            "objectId": "73",
+            "confidence": 0.6023935675621033
+        },
+        {
+            "subjectId": "71",
+            "objectId": "72",
+            "confidence": 0.9846749305725098
+        },
+        {
+            "subjectId": "71",
+            "objectId": "73",
+            "confidence": 0.826841413974762
+        },
+        {
+            "subjectId": "76",
+            "objectId": "74",
+            "confidence": 0.999570906162262
+        },
+        {
+            "subjectId": "76",
+            "objectId": "75",
+            "confidence": 0.9993228316307068
+        },
+        {
+            "subjectId": "78",
+            "objectId": "77",
+            "confidence": 0.99586421251297
+        },
+        {
+            "subjectId": "80",
+            "objectId": "81",
+            "confidence": 0.9339882135391235
+        },
+        {
+            "subjectId": "83",
+            "objectId": "82",
+            "confidence": 0.9996469616889954
+        },
+        {
+            "subjectId": "85",
+            "objectId": "86",
+            "confidence": 0.9996856451034546
+        },
+        {
+            "subjectId": "88",
+            "objectId": "89",
+            "confidence": 0.9996469616889954
+        },
+        {
+            "subjectId": "88",
+            "objectId": "90",
+            "confidence": 0.9996469616889954
+        },
+        {
+            "subjectId": "92",
+            "objectId": "91",
+            "confidence": 0.9995424747467041
+        },
+        {
+            "subjectId": "94",
+            "objectId": "91",
+            "confidence": 0.9959344267845154
+        },
+        {
+            "subjectId": "94",
+            "objectId": "93",
+            "confidence": 0.9943116903305054
+        },
+        {
+            "subjectId": "96",
+            "objectId": "95",
+            "confidence": 0.9812120199203491
+        },
+        {
+            "subjectId": "98",
+            "objectId": "99",
+            "confidence": 0.8135565519332886
+        }
+    ]
+}
